@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B21E55A329FBF59400C1ABBE /* history.plist in Resources */ = {isa = PBXBuildFile; fileRef = B21E55A229FBF59400C1ABBE /* history.plist */; };
 		B21E55A529FBFFA200C1ABBE /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B250969F29F96A7E00712E12 /* HistoryView.swift */; };
 		B21E55A729FC01F700C1ABBE /* AddHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E55A629FC01F700C1ABBE /* AddHistoryView.swift */; };
 		B21E55A929FC0B9500C1ABBE /* BarChartDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E55A829FC0B9500C1ABBE /* BarChartDayView.swift */; };
@@ -41,7 +40,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B21E55A229FBF59400C1ABBE /* history.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = history.plist; path = "../../../../../../10-working-with-datasets/projects/starter/HIITFit/HIITFit/Preview Content/history.plist"; sourceTree = "<group>"; };
 		B21E55A629FC01F700C1ABBE /* AddHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHistoryView.swift; sourceTree = "<group>"; };
 		B21E55A829FC0B9500C1ABBE /* BarChartDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartDayView.swift; sourceTree = "<group>"; };
 		B21E55AA29FC0EA700C1ABBE /* BarChartWeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartWeekView.swift; sourceTree = "<group>"; };
@@ -150,7 +148,6 @@
 		CD30C929251474DD0049DB93 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				B21E55A229FBF59400C1ABBE /* history.plist */,
 				CD30C92A251474DD0049DB93 /* Preview Assets.xcassets */,
 				B25096A429F9704A00712E12 /* HistoryStoreDevData.swift */,
 			);
@@ -250,7 +247,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD30C94825147AEF0049DB93 /* squat.mp4 in Resources */,
-				B21E55A329FBF59400C1ABBE /* history.plist in Resources */,
 				CD30C94725147AEF0049DB93 /* burpee.mp4 in Resources */,
 				CD30C92B251474DD0049DB93 /* Preview Assets.xcassets in Resources */,
 				CD30C928251474DD0049DB93 /* Assets.xcassets in Resources */,
@@ -439,9 +435,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HIITFit/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N4L46RJZFA;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HIITFit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -449,7 +446,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kodeco.HIITFit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.letguilhermec.HIITFit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -462,9 +459,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HIITFit/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N4L46RJZFA;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HIITFit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -472,7 +470,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kodeco.HIITFit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.letguilhermec.HIITFit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
